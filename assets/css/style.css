@@ -1,0 +1,544 @@
+/*     Fonts
+__________________*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+/* Dissapear Scrollbar */
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+/*     Reset CSS
+______________________*/
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  font-family: 'Poppins';
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+:root {
+  --black: #181818;
+  --gray: #B4B4B4;
+  --primary-color: #FFFFFF;
+  --secondary-color: #A18262;
+  --third-color: #D3CFBE;
+}
+
+/*        Navbar
+_________________________*/
+.nav {
+  display: flex;
+  gap: 90px;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1em 0em;
+  background: var(--black);
+  color: var(--primary-color);
+}
+
+.nav-icon-burger {
+  height: 0.8em;
+}
+
+.nav-icon-shop {
+  height: 1.4em;
+}
+
+.nav-title {
+  font-size: 1rem;
+}
+
+.nav-first, .nav-second, .nav-third {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+/*       Header
+_________________________*/
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 9em;
+  color: var(--primary-color);
+  background-color: var(--black);
+  height: 1090px;
+  width: 100vw;
+  clip-path: circle(87% at 50% -30%);
+}
+
+.header-circle-bg {
+  width: 100vw;
+  height: 1000px;
+  background-color: var(--black);
+  border-radius: 50%;
+  position: relative;
+  margin: 0 auto;
+  top: -100px;
+  clip-path: circle(50% at 50% 50%);
+}
+
+.hero-container, .hero-container-img {
+  padding-top: 0em;
+}
+
+.main-icon {
+  width: 1.6em;
+  filter: invert(98%) sepia(98%) saturate(7%) hue-rotate(160deg) brightness(103%) contrast(102%);
+}
+
+.hero-container {
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 10em;
+  margin-left: 4em;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 500;
+}
+
+.hero-subtitle {
+  font-size: 1.3rem;
+  color: var(--gray);
+}
+
+.hero-btn {
+  place-self: flex-start;
+  font-size: 1.2rem;
+  padding: .8em 1.3em;
+  border-radius: 10rem;
+  border: none;
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  cursor: pointer;
+}
+
+.hero-img {
+  height: auto;
+  width: 1250px;
+  position: absolute;
+  right: 1px;
+  top: 29px;
+}
+
+.hero-bottom-circle {
+  color: var(--black);
+}
+
+.container-sroll {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.scroll-down-icon {
+  width: 25px;
+  height: 62px;
+  cursor: pointer;
+}
+
+/*    Section One
+______________________*/
+.section-one {
+  padding: 3em 0;
+  display: flex;
+  gap: 3em;
+  justify-content: center;
+}
+
+.box:first-child {
+  color: var(--primary-color);
+  background-color: var(--black);
+  box-shadow: none;
+}
+
+.box {
+  height: 110px;
+  width: 185px;
+  text-align: left;
+  padding: 1em;
+  color: var(--black);
+  background-color: var(--primary-color);
+  border-radius: 15px;
+  box-shadow: 0px 4px 12px rgba(24, 24, 24, 0.1);
+}
+
+.box-img {
+  display: block;
+}
+
+/*    Section One
+______________________*/
+.section-two {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  padding: 2em 9.5em;
+}
+
+.img-plant {
+  height: 530px; 
+  border-radius: 0px 0px 400px 400px;
+}
+
+.section-two-right {
+  height: 420px;
+  width: 37em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  justify-self: flex-end;
+}
+
+.section-two-title {
+  font-size: 2.3rem;
+  font-weight: 500;
+}
+
+.section-two-subtitle {
+  line-height: 24px;
+}
+
+.section-two-btn {
+  place-self: flex-start;
+  font-size: 1.2rem;
+  padding: .8em 1.3em;
+  border-radius: 10rem;
+  border: none;
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  cursor: pointer;
+}
+
+/*    Section three
+______________________*/
+.section-three {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: 
+    "one two"
+    "one three";
+  padding: 3em 0em;
+  color: var(--primary-color);
+}
+
+.section-three-left {
+  grid-area: one;
+  height: 1550px;
+  background: linear-gradient(
+    rgba(24,24,24, 0.4),
+    rgba( 24,24,24, 0.3)
+    ),
+    url("assets/img/coffee-bag.png");
+}
+
+.section-three-right-up {
+  grid-area: two;
+  height: 100%;
+  background: url("assets/img/cups.png");
+}
+
+.section-three-right-down {
+  grid-area: three;
+  height: 100%;
+  background: linear-gradient(
+    to top left, 
+    rgba(24,24,24, 0.4),
+    rgba( 24,24,24, 0.3)
+    ),
+    url("assets/img/cup.png");
+}
+
+.section-three-btn {
+  font-size: 1.2rem;
+  padding: .8em 1.3em;
+  border-radius: 10rem;
+  border: none;
+  color: var(--secondary-color);
+  background: var(--primary-color);
+  cursor: pointer;
+}
+
+.section-three-btn-secondary {
+  margin-top: 2em;
+  font-size: 1.2rem;
+  padding: .8em 1.3em;
+  border-radius: 10rem;
+  border: none;
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  cursor: pointer;
+}
+
+.section-three-subtitle {
+  padding-top: 1em;
+  padding-bottom: 1.2em;
+}
+
+.section-three-left {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: end;
+}
+
+.section-three-left-text {
+  width: 700px;
+  padding-right: 14em;
+  text-align: left;
+}
+
+.section-three-right-up, .section-three-right-down {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-three-right-up-text, .section-three-right-down-text {
+  margin-top: auto;
+  padding-bottom: 5em;
+  width: 600px;
+  padding-left: 3em;
+}
+
+.section-three-right-down-text {
+  width: 500px;
+}
+
+.section-three-right-down-text button {
+  margin-top: 1em;
+}
+
+.section-three-title {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+
+/*    Section Four
+______________________*/
+.section-four {
+  display: flex;
+  justify-content: space-between;
+  padding: 3em 0em;
+  padding-bottom: 5em;
+}
+
+.section-four-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 700px;
+  padding-right: 12em;
+}
+
+.section-four-right-title {
+  font-size: 45px;
+  font-weight: 500;
+}
+
+.section-four-right-subtitle {
+  padding: 1em 0;
+}
+
+.section-four-btn {
+  align-self: flex-start;
+  font-size: 1.2rem;
+  padding: .8em 1.3em;
+  border-radius: 10rem;
+  border: none;
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  cursor: pointer;
+}
+
+/*    Section Five
+______________________*/
+.section-five {
+  display: flex;
+  justify-content: space-between;
+  background: #D3CFBE;
+  padding-top: 5em;
+  padding-bottom: 4em;
+}
+
+.section-five-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 700px;
+  padding-left: 12em;
+}
+
+.section-five-right-title {
+  font-size: 45px;
+  font-weight: 500;
+}
+
+.section-five-right-subtitle {
+  padding: 1em 0;
+}
+
+.section-five-btn {
+  align-self: flex-start;
+  font-size: 1.2rem;
+  padding: .8em 1.3em;
+  border-radius: 10rem;
+  border: none;
+  color: var(--primary-color);
+  background: var(--black);
+  cursor: pointer;
+}
+
+/*    Footer
+________________*/
+.footer {
+  padding: 4em 12em;
+  background-color: var(--black);
+}
+
+
+
+.footer-first-name {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-title-icon {
+  width: 1.8em;
+  height: 1.9em;
+  filter: invert(98%) sepia(98%) saturate(7%) hue-rotate(160deg) brightness(103%) contrast(102%);
+}
+
+.footer-title {
+  font-size: 1.25rem;
+  color: white;
+  padding-left: .5em;
+  padding-bottom: 1.8em;
+}
+
+.footer-first-logos ul {
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+}
+
+.footer-second, .footer-third {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-second li, .footer-third li {
+  padding-bottom: .5em;
+}
+
+.footer-second a, .footer-third a {
+  text-decoration: none;
+  color: rgba(180, 180, 180, 1);
+}
+
+
+.footer-second h3 {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: white;
+  padding-bottom: 1em;
+}
+
+.footer-third h3 {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: white;
+  padding-bottom: 1em;
+}
+
+.footer-suscription h3 {
+  width: 358px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.footer-suscription input {
+  line-height: 24px;
+  width: 306px;
+  font-size: 1rem;
+  background: transparent;
+  border: none;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  border-bottom: 2px solid rgba(180, 180, 180, 1);
+  outline: none;
+}
+
+.footer-suscription button {
+  display: block;
+  margin-top: 2em;
+  font-size: 1.2rem;
+  padding: .8em 1.3em;
+  border-radius: 8px;
+  border: none;
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  cursor: pointer;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-bottom-name {
+  font-size: 1em; 
+  color: white;
+}
+
+.footer-suscription {
+  color: white;
+}
+
+.footer-bottom-ul {
+  display: flex;
+  flex-direction: row;
+  gap: 29px;
+  color: #B4B4B4;
+  font-size: 1em; 
+  padding-right: 4.6em;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "col col-two col-three col-four"
+    "row  row      row        row";
+}
+
+.footer-first { grid-area: col }
+.footer-second { grid-area: col-two }
+.footer-third { grid-area: col-three }
+.footer-suscription { grid-area: col-four }
+.footer-bottom { grid-area: row }
