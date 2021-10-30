@@ -1,0 +1,119 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+*	assets/css/style.css	/^*, *:before, *:after {$/;"	s
+*:after	assets/css/style.css	/^*, *:before, *:after {$/;"	s
+*:before	assets/css/style.css	/^*, *:before, *:after {$/;"	s
+.box	assets/css/style.css	/^.box {$/;"	c
+.box-img	assets/css/style.css	/^.box-img {$/;"	c
+.box:first-child	assets/css/style.css	/^.box:first-child {$/;"	c
+.container-sroll	assets/css/style.css	/^.container-sroll {$/;"	c
+.footer	assets/css/style.css	/^.footer {$/;"	c
+.footer-bottom	assets/css/style.css	/^.footer-bottom { grid-area: row }$/;"	c
+.footer-bottom	assets/css/style.css	/^.footer-bottom {$/;"	c
+.footer-bottom-name	assets/css/style.css	/^.footer-bottom-name {$/;"	c
+.footer-bottom-ul	assets/css/style.css	/^.footer-bottom-ul {$/;"	c
+.footer-first	assets/css/style.css	/^.footer-first { grid-area: col }$/;"	c
+.footer-first-logos ul	assets/css/style.css	/^.footer-first-logos ul {$/;"	s
+.footer-first-name	assets/css/style.css	/^.footer-first-name {$/;"	c
+.footer-second	assets/css/style.css	/^.footer-second { grid-area: col-two }$/;"	c
+.footer-second	assets/css/style.css	/^.footer-second, .footer-third {$/;"	c
+.footer-second a	assets/css/style.css	/^.footer-second a, .footer-third a {$/;"	s
+.footer-second h3	assets/css/style.css	/^.footer-second h3 {$/;"	s
+.footer-second li	assets/css/style.css	/^.footer-second li, .footer-third li {$/;"	s
+.footer-suscription	assets/css/style.css	/^.footer-suscription { grid-area: col-four }$/;"	c
+.footer-suscription	assets/css/style.css	/^.footer-suscription {$/;"	c
+.footer-suscription button	assets/css/style.css	/^.footer-suscription button {$/;"	s
+.footer-suscription h3	assets/css/style.css	/^.footer-suscription h3 {$/;"	s
+.footer-suscription input	assets/css/style.css	/^.footer-suscription input {$/;"	s
+.footer-third	assets/css/style.css	/^.footer-second, .footer-third {$/;"	c
+.footer-third	assets/css/style.css	/^.footer-third { grid-area: col-three }$/;"	c
+.footer-third a	assets/css/style.css	/^.footer-second a, .footer-third a {$/;"	s
+.footer-third h3	assets/css/style.css	/^.footer-third h3 {$/;"	s
+.footer-third li	assets/css/style.css	/^.footer-second li, .footer-third li {$/;"	s
+.footer-title	assets/css/style.css	/^.footer-title {$/;"	c
+.footer-title-icon	assets/css/style.css	/^.footer-title-icon {$/;"	c
+.header	assets/css/style.css	/^.header {$/;"	c
+.header-circle-bg	assets/css/style.css	/^.header-circle-bg {$/;"	c
+.hero-bottom-circle	assets/css/style.css	/^.hero-bottom-circle {$/;"	c
+.hero-btn	assets/css/style.css	/^.hero-btn {$/;"	c
+.hero-container	assets/css/style.css	/^.hero-container {$/;"	c
+.hero-container	assets/css/style.css	/^.hero-container, .hero-container-img {$/;"	c
+.hero-container-img	assets/css/style.css	/^.hero-container, .hero-container-img {$/;"	c
+.hero-img	assets/css/style.css	/^.hero-img {$/;"	c
+.hero-subtitle	assets/css/style.css	/^.hero-subtitle {$/;"	c
+.hero-title	assets/css/style.css	/^.hero-title {$/;"	c
+.img-plant	assets/css/style.css	/^.img-plant {$/;"	c
+.main-icon	assets/css/style.css	/^.main-icon {$/;"	c
+.nav	assets/css/style.css	/^.nav {$/;"	c
+.nav-first	assets/css/style.css	/^.nav-first, .nav-second, .nav-third {$/;"	c
+.nav-icon-burger	assets/css/style.css	/^.nav-icon-burger {$/;"	c
+.nav-icon-shop	assets/css/style.css	/^.nav-icon-shop {$/;"	c
+.nav-second	assets/css/style.css	/^.nav-first, .nav-second, .nav-third {$/;"	c
+.nav-third	assets/css/style.css	/^.nav-first, .nav-second, .nav-third {$/;"	c
+.nav-title	assets/css/style.css	/^.nav-title {$/;"	c
+.scroll-down-icon	assets/css/style.css	/^.scroll-down-icon {$/;"	c
+.section-five	assets/css/style.css	/^.section-five {$/;"	c
+.section-five-btn	assets/css/style.css	/^.section-five-btn {$/;"	c
+.section-five-left	assets/css/style.css	/^.section-five-left {$/;"	c
+.section-five-right-subtitle	assets/css/style.css	/^.section-five-right-subtitle {$/;"	c
+.section-five-right-title	assets/css/style.css	/^.section-five-right-title {$/;"	c
+.section-four	assets/css/style.css	/^.section-four {$/;"	c
+.section-four-btn	assets/css/style.css	/^.section-four-btn {$/;"	c
+.section-four-right	assets/css/style.css	/^.section-four-right {$/;"	c
+.section-four-right-subtitle	assets/css/style.css	/^.section-four-right-subtitle {$/;"	c
+.section-four-right-title	assets/css/style.css	/^.section-four-right-title {$/;"	c
+.section-one	assets/css/style.css	/^.section-one {$/;"	c
+.section-three	assets/css/style.css	/^.section-three {$/;"	c
+.section-three-btn	assets/css/style.css	/^.section-three-btn {$/;"	c
+.section-three-btn-secondary	assets/css/style.css	/^.section-three-btn-secondary {$/;"	c
+.section-three-left	assets/css/style.css	/^.section-three-left {$/;"	c
+.section-three-left-text	assets/css/style.css	/^.section-three-left-text {$/;"	c
+.section-three-right-down	assets/css/style.css	/^.section-three-right-down {$/;"	c
+.section-three-right-down	assets/css/style.css	/^.section-three-right-up, .section-three-right-down {$/;"	c
+.section-three-right-down-text	assets/css/style.css	/^.section-three-right-down-text {$/;"	c
+.section-three-right-down-text	assets/css/style.css	/^.section-three-right-up-text, .section-three-right-down-text {$/;"	c
+.section-three-right-down-text button	assets/css/style.css	/^.section-three-right-down-text button {$/;"	s
+.section-three-right-up	assets/css/style.css	/^.section-three-right-up {$/;"	c
+.section-three-right-up	assets/css/style.css	/^.section-three-right-up, .section-three-right-down {$/;"	c
+.section-three-right-up-text	assets/css/style.css	/^.section-three-right-up-text, .section-three-right-down-text {$/;"	c
+.section-three-subtitle	assets/css/style.css	/^.section-three-subtitle {$/;"	c
+.section-three-title	assets/css/style.css	/^.section-three-title {$/;"	c
+.section-two	assets/css/style.css	/^.section-two {$/;"	c
+.section-two-btn	assets/css/style.css	/^.section-two-btn {$/;"	c
+.section-two-right	assets/css/style.css	/^.section-two-right {$/;"	c
+.section-two-subtitle	assets/css/style.css	/^.section-two-subtitle {$/;"	c
+.section-two-title	assets/css/style.css	/^.section-two-title {$/;"	c
+::-webkit-scrollbar	assets/css/style.css	/^::-webkit-scrollbar {$/;"	s
+:root	assets/css/style.css	/^:root {$/;"	s
+Abre tu cafetería sin costo alguno	index.html	/^      <h2 class="section-five-right-title">Abre tu cafetería sin costo alguno<\/h2>$/;"	i
+Conviertete en partner y obten beneficios para tu negocio	index.html	/^        <h2 class="section-three-title">Conviertete en partner y obten beneficios para tu negoci/;"	i
+Descubre la línea de productos Lilian Coffee	index.html	/^        <h2 class="section-three-title">Descubre la línea de productos Lilian Coffee<\/h2>$/;"	i
+Designed by Brandon Arreguin (@itsarreguin)	README.md	/^## Designed by Brandon Arreguin (@itsarreguin)$/;"	s
+Explora el menú disponible en nuestras cafeterias	index.html	/^        <h2 class="section-three-title">Explora el menú disponible en nuestras cafeterias<\/h2>$/;"	i
+Front-end development by Ricardo Aguilar.	README.md	/^## Front-end development by Ricardo Aguilar.$/;"	s
+Lilian Coffee	index.html	/^          <h2 class="footer-title">Lilian Coffee<\/h2>$/;"	i
+Lilian Coffee	index.html	/^      <h2 class="nav-title">Lilian Coffee<\/h2>$/;"	i
+Navegación	index.html	/^        <h3>Navegación<\/h3>$/;"	j
+Nuestras cafeterías en el país	index.html	/^      <h2 class="section-four-right-title">Nuestras cafeterías en el país<\/h2>$/;"	i
+Plantios de café en diferentes puntos de México	index.html	/^      <h1 class="section-two-title">Plantios de café en diferentes puntos de México<\/h1>$/;"	h
+Productos 100% hechos en Mexico.	index.html	/^      <h1 class="hero-title">Productos 100% hechos en Mexico.<\/h1>$/;"	h
+Recursos	index.html	/^        <h3>Recursos<\/h3>$/;"	j
+Suscribete al boletín para no perderte noticias y actualizaciones	index.html	/^        <h3>Suscribete al boletín para no perderte noticias y actualizaciones<\/h3>$/;"	j
+body	assets/css/style.css	/^body, h1, h2, h3, h4, h5, h6, p, ol, ul {$/;"	s
+h1	assets/css/style.css	/^body, h1, h2, h3, h4, h5, h6, p, ol, ul {$/;"	s
+h2	assets/css/style.css	/^body, h1, h2, h3, h4, h5, h6, p, ol, ul {$/;"	s
+h3	assets/css/style.css	/^body, h1, h2, h3, h4, h5, h6, p, ol, ul {$/;"	s
+h4	assets/css/style.css	/^body, h1, h2, h3, h4, h5, h6, p, ol, ul {$/;"	s
+h5	assets/css/style.css	/^body, h1, h2, h3, h4, h5, h6, p, ol, ul {$/;"	s
+h6	assets/css/style.css	/^body, h1, h2, h3, h4, h5, h6, p, ol, ul {$/;"	s
+html	assets/css/style.css	/^html {$/;"	s
+ol	assets/css/style.css	/^body, h1, h2, h3, h4, h5, h6, p, ol, ul {$/;"	s
+ol	assets/css/style.css	/^ol, ul {$/;"	s
+p	assets/css/style.css	/^body, h1, h2, h3, h4, h5, h6, p, ol, ul {$/;"	s
+ul	assets/css/style.css	/^body, h1, h2, h3, h4, h5, h6, p, ol, ul {$/;"	s
+ul	assets/css/style.css	/^ol, ul {$/;"	s
